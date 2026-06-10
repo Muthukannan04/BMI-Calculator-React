@@ -1,16 +1,87 @@
-# React + Vite
+# BMI Calculator ⚖️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive BMI (Body Mass Index) Calculator built using React.js. This application allows users to calculate their BMI based on height and weight and instantly view their health category.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19-blue)
+![Vite](https://img.shields.io/badge/Vite-Latest-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://bmi-calculator-react-mk.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Calculate BMI instantly
+- Input validation
+- Displays BMI status
+- Responsive design
+- Clean and modern UI
+- Reset/Clear functionality
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript
+- CSS3
+- Vite
+
+## 📊 BMI Categories
+
+| BMI Range | Category |
+|------------|------------|
+| Below 18.5 | Underweight |
+| 18.5 - 24.9 | Normal Weight |
+| 25 - 29.9 | Overweight |
+| 30+ | Obese |
+
+## 📥 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Muthukannan04/BMI-Calculator.git
+```
+
+Go to the project directory:
+
+```bash
+cd BMI-Calculator
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📸 Preview
+
+Add a screenshot of your project here.
+
+Example:
+
+```text
+public/screenshot.png
+```
+
+## 👨‍💻 Author
+
+### Muthu Kannan
+
+- GitHub: https://github.com/Muthukannan04
+- LinkedIn: https://www.linkedin.com/in/muthu-kannan-p/
+
+## 🌟 Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+## 📄 License
+
+This project is licensed under the MIT License.
